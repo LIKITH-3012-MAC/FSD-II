@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Load image (change path if needed)
 image = cv2.imread('tr.jpeg')  # Replace 'input.jpg' with your image file
 if image is None:
-    raise FileNotFoundError("Image not found. Make sure 'input.jpg' is in the directory.")
+    raise FileNotFoundError("Images not found. Make sure 'input.jpg' is in the directory.")
 
 # Convert to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
