@@ -6,6 +6,7 @@
 CREATE DATABASE IF NOT EXISTS fsd_week5_db;
 USE fsd_week5_db;
 
+
 CREATE TABLE IF NOT EXISTS students (
     student_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
