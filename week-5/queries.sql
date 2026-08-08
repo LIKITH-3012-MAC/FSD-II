@@ -17,7 +17,6 @@ CREATE TABLE IF NOT EXISTS students (
 INSERT INTO students (name, department, marks) VALUES 
 ('Likith Naidu', 'CSE-AI', 95),
 ('Kiran Kumar', 'CSE', 82),
-('Mahitha', 'CSE-AI', 88),
 ('Rahul', 'ECE', 74);
 
 UPDATE students SET marks = 90 WHERE name = 'Mahitha';
